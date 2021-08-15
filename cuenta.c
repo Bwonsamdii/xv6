@@ -5,6 +5,6 @@
 
 int main()
 {
-  getNumProc();
+  getprocs();
   exit();
 }
