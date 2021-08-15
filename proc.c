@@ -533,7 +533,7 @@ procdump(void)
   }
 }
 
-int getNumProc(void)
+int getprocs(void)
 {
   struct proc *p;
   int count = 0;
