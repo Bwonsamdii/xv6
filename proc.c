@@ -548,5 +548,5 @@ int getprocs(void)
 
   release(&ptable.lock);
   print("La cantidad de procesos en ejecucion en la CPU es %i\n",getprocs());
- return 22;
+ return count;
 }
